@@ -1,0 +1,16 @@
+name: 💡 Sugerir uma melhoria
+description: Uma ideia de função nova ou de como melhorar algo
+labels: ["melhoria"]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+      description: Descreva o que gostaria que o programa fizesse.
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por que seria útil?
+      description: Em que situação você usaria isso?

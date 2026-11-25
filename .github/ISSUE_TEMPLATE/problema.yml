@@ -1,0 +1,31 @@
+name: 🐞 Relatar um problema
+description: Algo não funcionou como deveria
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar! Se os downloads pararam de repente, tente antes
+        **Configurações › Atualizar yt-dlp**.
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      description: O que você fez, o que esperava e o que aconteceu.
+    validations:
+      required: true
+  - type: textarea
+    id: erro
+    attributes:
+      label: Mensagem de erro
+      description: Cole aqui o que apareceu no registro do programa (se houver).
+      render: text
+  - type: input
+    id: link
+    attributes:
+      label: Link do vídeo ou playlist (se for o caso)
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema e versão do Python
+      placeholder: "Windows 11, Python 3.12"

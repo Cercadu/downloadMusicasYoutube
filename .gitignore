@@ -1,0 +1,19 @@
+# músicas (grandes demais para o git)
+musicas baixadas/
+*.mp3
+*.m3u8
+
+# dados pessoais de cada usuário (criados pelo programa ao abrir)
+baixadas.json
+config.json
+
+# gerados pelo programa
+__pycache__/
+*.pyc
+backups/
+analise.json
+*.tmp
+*.corrompido.json
+
+# arquivos avulsos
+renomeio_D.csv
